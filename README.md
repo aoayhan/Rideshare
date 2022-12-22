@@ -1,5 +1,4 @@
 # Rideshare Application
-A rideshareing application focusing on concurrency and proper lock implementation.
 
 My main starts with some input checks. First, if there are 3 inputs. The program, team a fans and team b fans. Then, it checks if the fans are < 0, if there are even numbers of fans from each team and if the sum of fans can be divided by 4. If any of these fail, the program returns with 1, 2 or 3(for each error). Then threads are created, and we use the functions.
 
